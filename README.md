@@ -1,5 +1,5 @@
 # WBTC2015
-Assignment 1
+Exercise 1
 
 Create my own IRI
 
