@@ -14,6 +14,8 @@ With that said I think this IRI should be in use 100 years from now.
 
 Linked Data
 
+There are many different Data that we use like Videos or Images. The Web allows us to mix pictures with text. Thanks to links theres a ciônnection between documents. For the Computers is hard to know where the link is refering to or what image it is they only see its a link or image.
 
 
+I'm referring to the video "What is Linked Data": https://www.youtube.com/watch?v=4x_xzT5eF5Q
 
