@@ -8,7 +8,7 @@ Create my own IRI
 As we learned last week I try to create my own IRI that could or should also be used in like 100 years. For that I need to take some good patterns.
 Identifier: http://lrozza.org/info
 Company: http://belwag.ch/#i
-Interests: http://allkindofsports.ch/#i
+Interests: http://lrozza.org/info#interests
 My explanation for using these patterns:
 I wanted to make sure that this pattern refers to me and only to me, so I wrote lrozza (for Luca Rozza) .
 Belwag is the name of the Company I made my apprenticeship. This is also true in 100 years.
