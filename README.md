@@ -1,8 +1,6 @@
 # WBTC
 Exercise 1
 
-Exercise 1
-
 Create my own IRI
 
 As we learned last week I try to create my own IRI that could or should also be used in like 100 years. For that I need to take some good patterns.
