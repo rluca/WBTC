@@ -1,13 +1,10 @@
-@prefix rdf : <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix foaf : <http://example.org/foaf/0.1/> .
-@prefix friends : <http://xmlns.com/foaf/0.1/knows> .
-@prefix wikipedia : <http://en.wikipedia.org/wiki/> .
-@prefix education : <http://xmlns/education/1.0/> .
-@prefix work : <http://xmlns/work/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia: <http://en.wikipedia.org/wiki/> .
 
-<http://lrozza.org/info>
+<http://lrozza.info>
 rdf:type foaf:Person ;
-foaf:Name “Luca”@de ;
+foaf:givenName “Luca”@de ;
 foaf:account <https://www.facebook.com/luca.rozza.9> ;
 foaf:friends <http://csarven.ca/#i> ;
 foaf:interest wikipedia:Basketball ,  wikipedia:Kartenspiele ;
@@ -17,6 +14,6 @@ foaf: experience work: securitas ;
 
 
 
-<http://lrozza.org/info> <http://dbpedia.org/property/hometown> “Bern” .
-<http://lrozza.org/info> <http://example.org/friends/1.0/> “Luka” .
-<http://lrozza.org/info/work/#belwag> <http://example.org/friends/1.0/> <http://belwag.ch> .
+<http://lrozza.info> <http://dbpedia.org/ontology/city> “Bern” .
+<http://lrozza.info> <http://example.org/friends/1.0/> “Luka” .
+<http://lrozza.info> <http://xmlns/work/1.0/> "belwag" .
