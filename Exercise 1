@@ -4,9 +4,11 @@
 Create my own IRI
 
 As we learned last week I try to create my own IRI that could or should also be used in like 100 years. For that I need to take some good patterns.
-Identifier: http://lrozza.org/info
-Company: http://lrozza.org/info#company/<http://belwag.ch>
-Interests: http://lrozza.org/info#interests/<http://basketball.com>
+Identifier: http://lrozza.info
+Company: http://lrozza.info/company/belwag
+         http://lrozza.info/company/landi
+Interests: http://lrozza.info/interests/basketball
+           http://lrozza.info/interests/soccer
 My explanation for using these patterns:
 I wanted to make sure that this pattern refers to me and only to me, so I wrote lrozza (for Luca Rozza) .
 Belwag is the name of the Company I made my apprenticeship. This is also true in 100 years.
