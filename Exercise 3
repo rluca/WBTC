@@ -9,6 +9,11 @@
 @prefix wikipedia : <http://en.wikipedia.org/wiki/>
 @prefix dbpedia : <http://dbpedia.org/page/>
 
-rdf: type foaf: Person
+rdf:type foaf:Person ;
+foaf:name "Luca Rozza"@de ;
+foaf:knows "can#me" ;
+foaf:interest dbpedia:Bern, dbpedia:Sport ;
+foaf:mbox <mailto:luca.rozza@students.bfh.ch> ;
+foaf:document <http://wbtc.bfh.ch/2015/linked-data> ;
 
 3.2
