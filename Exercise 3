@@ -12,6 +12,8 @@
 rdf:type foaf:Person ;
 foaf:name "Luca Rozza"@de ;
 foaf:knows "can#me" ;
+foaf:knows "yann#me" ;
+foaf:knows "luka#me" ;
 foaf:interest dbpedia:Bern, dbpedia:Sport ;
 foaf:mbox <mailto:luca.rozza@students.bfh.ch> ;
 foaf:document <http://wbtc.bfh.ch/2015/linked-data> ;
