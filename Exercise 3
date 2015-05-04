@@ -9,4 +9,6 @@
 @prefix wikipedia : <http://en.wikipedia.org/wiki/>
 @prefix dbpedia : <http://dbpedia.org/page/>
 
+rdf: type foaf: Person
+
 3.2
