@@ -1,5 +1,7 @@
 # WBTC
 
+3.1
+
 @base <http://lrozza.info>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -7,3 +9,4 @@
 @prefix wikipedia : <http://en.wikipedia.org/wiki/>
 @prefix dbpedia : <http://dbpedia.org/page/>
 
+3.2
