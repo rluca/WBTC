@@ -20,15 +20,13 @@ foaf:document <http://wbtc.bfh.ch/2015/linked-data> ;
 
 3.2
 
-PREFIX dbo : <http://dbpedia.org/ontology/>
-PREFIX dbo : <http://dbpedia.org/resource/>
-PREFIX dbo : <http://dbpedia.org/property/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbpprop: <http://dbpedia.org/property/populationCensus>
 
-SELECT*
+SELECT* 
 WHERE {
-?company dbo: numberOfEmployees ?employees .
+?populationCensus dbpprop:label dbr:Switzerland .
 }
-ORDER BY DESC(?employees)
-LIMIT 10
 
-
+What do I miss there that it won't work???
