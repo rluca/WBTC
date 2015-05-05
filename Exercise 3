@@ -20,13 +20,20 @@ foaf:document <http://wbtc.bfh.ch/2015/linked-data> ;
 
 3.2
 
-PREFIX dbp: <http://dbpedia.org/property/>
-PREFIX dbr: <http://dbpedia.org/resource/>
-PREFIX dbpprop: <http://dbpedia.org/property/populationCensus>
-
-SELECT* 
-WHERE {
-?populationCensus dbpprop:label dbr:Switzerland .
+SELECT ?CentralGovernmentDebtTotalPercentageOfGDP
+WHERE{
+?p ?a country:CH.
+?p sdmx-measure:obsValue ?CentralGovernmentDebtTotalPercentageOfGDP.
+?p ?x year:2008.
+?p property:indicator indicator:GC.DOD.TOTL.GD.ZS.
 }
 
-What do I miss there that it won't work???
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+SELECT ?PopulationCensusValueForSwitzerland
+WHERE {
+    dbr:Switzerland dbpprop:populationCensus ?PopulationCensusValueForSwitzerland.
+}
+
+
