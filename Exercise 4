@@ -1,5 +1,13 @@
 # WBTC
 
+1.
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+SELECT ?name
+WHERE {
+    ?person foaf:name ?name .
+
+
+2.
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbo: <http://dbpedia.org/resource/>
 PREFIX dbo: <http://dbpedia.org/property/>
@@ -11,4 +19,16 @@ WHERE {
 ORDER BY DESC(?employees)
 LIMIT 10
 
-
+3.
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>        
+PREFIX type: <http://dbpedia.org/class/yago/>
+PREFIX prop: <http://dbpedia.org/property/>
+SELECT ?lbl ?est
+WHERE {
+  ?country rdfs:label ?lbl .
+  FILTER(bif:contains(?lbl, "Republic")) .
+  ?country a type:Country108544813 ;
+      prop:establishedDate ?est .
+  FILTER(?est < "1920-01-01"^^xsd:date) .
+}
