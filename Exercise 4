@@ -1,0 +1,14 @@
+# WBTC
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbo: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/property/>
+
+SELECT*
+WHERE {
+?company dbo:numberOfEmployees ?employees .
+}
+ORDER BY DESC(?employees)
+LIMIT 10
+
+
